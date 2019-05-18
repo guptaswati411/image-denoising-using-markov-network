@@ -23,6 +23,9 @@ noisy=np.array(x['noisyImg'])
 height=len(original)
 width=len(original[0])
 
+plot_image(original)
+plot_image(noisy)
+
 # Set values for parameters
 parameters = [[0.01,0.01,0.01],[-0.001,100,100],[0,1,10]]
 for h,b,v in parameters:
